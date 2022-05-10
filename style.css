@@ -1,0 +1,20 @@
+h1 {
+    font-family: fantasy;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+#description {
+    font-size: 17px;
+    background-color: aquamarine;
+}
+
+.importantes {
+    font-size: 20px;
+}
