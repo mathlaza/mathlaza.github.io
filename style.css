@@ -1,5 +1,6 @@
 h1 {
     font-family: fantasy;
+    text-align: center;
 }
 
 p {
@@ -8,6 +9,13 @@ p {
 
 body {
     background-color: bisque;
+    padding: 2%;
+}
+
+#ola {
+    position: absolute;
+    top: 39%;
+    left: 50%;
 }
 
 #description {
@@ -18,3 +26,24 @@ body {
 .importantes {
     font-size: 20px;
 }
+
+
+
+#fotominha {
+    float: left;
+    height: 260px;
+    padding: 20px;
+    background-color: cornflowerblue;
+}
+
+.imgcontainer {
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+/* deixa os itens ímpares da lista diferentes */
+ul li:nth-child(odd){
+    background-color: darkseagreen;
+}
+
